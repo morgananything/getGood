@@ -47,8 +47,16 @@ table{
     width: 80%;
     border-collapse: collapse;
     text-align: center;
+    position: relative;
 }
 
-th, td {
-    border-bottom: 1px solid gray;
+ul{
+    list-style-type: none;
+    left: 50%;
+    border: 2px rgb(90, 53, 19) dashed;
+}
+
+#failedA{
+    color: red;
+    background-color: rgb(90, 53, 19);
 }
