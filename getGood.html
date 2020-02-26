@@ -24,6 +24,13 @@
                 <option>D&T</option>
                 <option>Criminology</option>
                 <option>Spanish/French</option>
+                <option>Art</option>
+                <option>Politics</option>
+                <option>History</option>
+                <option>Sociology</option>
+                <option>Music</option>
+                <option>Drama</option>
+                <option>Geography</option>
                 <option>Other</option>
             </div>
         </select>
@@ -99,9 +106,9 @@
     </table>
     <p id="tableA"></p>
     <p id="failedA"></p>
-<footer>
-    <div style="display: none;" id=hidden1>
-        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+<div name="reEvaluationInputs">
+    <div name="secondEval" style="display: none;" id="hidden1"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
         <form>
             <select id="subject1" class="interact">
                 <div class="option">
@@ -118,11 +125,782 @@
                     <option>D&T</option>
                     <option>Criminology</option>
                     <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
                 </div>
             </select>
         </form>
-        <button onclick="more()" id="more" class="interact"></button>
+        <button onclick="more1()" id="more1" class="interact">MORE</button>
     </div>
+    <div name="thirdEval" style="display: none;" id="hidden2">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject2" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more2()" id="more2" class="interact">MORE</button>
+    </div>
+    <div name="fourthEval" style="display: none;" id="hidden3"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject3" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more3()" id="more3" class="interact">MORE</button>
+    </div>
+    <div name="fifthEval" style="display: none;" id="hidden4">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject4" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more4()" id="more4" class="interact">MORE</button>
+    </div>
+    <div name="sixthEval" style="display: none;" id="hidden5"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject5" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more5()" id="more5" class="interact">MORE</button>
+    </div>
+    <div name="seventhEval" style="display: none;" id="hidden6">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject6" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more6()" id="more6" class="interact">MORE</button>
+    </div>
+    <div name="eighthEval" style="display: none;" id="hidden7"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject7" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more7()" id="more7" class="interact">MORE</button>
+    </div>
+    <div name="ninthEval" style="display: none;" id="hidden8">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject8" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more8()" id="more8" class="interact">MORE</button>
+    </div>
+    <div name="tenthEval" style="display: none;" id="hidden9"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject9" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more9()" id="more9" class="interact">MORE</button>
+    </div>
+    <div name="11thEval" style="display: none;" id="hidden10">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject10" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more10()" id="more10" class="interact">MORE</button>
+    </div>
+    <div name="12thEval" style="display: none;" id="hidden11"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject11" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more11()" id="more11" class="interact">MORE</button>
+    </div>
+    <div name="13thEval" style="display: none;" id="hidden12">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject12" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more12()" id="more12" class="interact">MORE</button>
+    </div>
+    <div name="14thEval" style="display: none;" id="hidden13"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject13" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more13()" id="more13" class="interact">MORE</button>
+    </div>
+    <div name="15thEval" style="display: none;" id="hidden14">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject14" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more14()" id="more14" class="interact">MORE</button>
+    </div>
+    <div name="16thEval" style="display: none;" id="hidden15"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject15" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more15()" id="more15" class="interact">MORE</button>
+    </div>
+    <div name="17thEval" style="display: none;" id="hidden16">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject16" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more16()" id="more16" class="interact">MORE</button>
+    </div>
+    <div name="18thEval" style="display: none;" id="hidden17"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject17" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more17()" id="more17" class="interact">MORE</button>
+    </div>
+    <div name="19thEval" style="display: none;" id="hidden18">
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject18" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more18()" id="more18" class="interact">MORE</button>
+    </div>
+    <div name="20thEval" style="display: none;" id="hidden19"> <!--re-eval id starts from 1. '0'- 19. name starts from-->
+        <p>To evaluate another subject, choose a subject then click 'more'.</p> <!--2. '1'- 20 (table rows)-->
+        <form>
+            <select id="subject19" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                    <option>Art</option>
+                    <option>Politics</option>
+                    <option>History</option>
+                    <option>Sociology</option>
+                    <option>Music</option>
+                    <option>Drama</option>
+                    <option>Geography</option>
+                    <option>Other</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more19()" id="more19" class="interact">MORE</button>
+    </div>
+</div>
+<footer>
+<div name="reEvaluationCommenceButtons">
+    <div name="commenceSecondEval">
+        <button onclick="reveal1()" class="interact" id="add1" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal1() {
+            document.getElementById("hidden1").style.display = "block";
+            document.getElementById("add1").style.display = "none";
+        }
+    </script>
+    </div>
+
+    <div name="commenceThirdEval">
+        <button onclick="reveal2()" class="interact" id="add2" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal2() {
+            document.getElementById("hidden2").style.display = "block";
+            document.getElementById("add2").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceFourthEval">
+        <button onclick="reveal3()" class="interact" id="add3" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal3() {
+            document.getElementById("hidden3").style.display = "block";
+            document.getElementById("add3").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceFifthEval">
+        <button onclick="reveal4()" class="interact" id="add4" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal() {
+            document.getElementById("hidden4").style.display = "block";
+            document.getElementById("add4").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceSixthEval">
+        <button onclick="reveal5()" class="interact" id="add5" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal5() {
+            document.getElementById("hidden5").style.display = "block";
+            document.getElementById("add5").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceSeventhEval">
+        <button onclick="reveal6()" class="interact" id="add6" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal6() {
+            document.getElementById("hidden6").style.display = "block";
+            document.getElementById("add6").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceEighthEval">
+        <button onclick="reveal7()" class="interact" id="add7" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal7() {
+            document.getElementById("hidden7").style.display = "block";
+            document.getElementById("add7").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceNinthEval">
+        <button onclick="reveal8()" class="interact" id="add8" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal8() {
+            document.getElementById("hidden8").style.display = "block";
+            document.getElementById("add8").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commenceTenthEval">
+        <button onclick="reveal9()" class="interact" id="add9" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal() {
+            document.getElementById("hidden9").style.display = "block";
+            document.getElementById("add9").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence11thEval">
+        <button onclick="reveal10()" class="interact" id="add10" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal10() {
+            document.getElementById("hidden10").style.display = "block";
+            document.getElementById("add10").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence12thEval">
+        <button onclick="reveal11()" class="interact" id="add11" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal11() {
+            document.getElementById("hidden11").style.display = "block";
+            document.getElementById("add11").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence13thEval">
+        <button onclick="reveal12()" class="interact" id="add12" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal12() {
+            document.getElementById("hidden12").style.display = "block";
+            document.getElementById("add12").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence14thEval">
+        <button onclick="reveal13()" class="interact" id="add13" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal13() {
+            document.getElementById("hidden13").style.display = "block";
+            document.getElementById("add13").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence15thEval">
+        <button onclick="reveal14()" class="interact" id="add14" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal14() {
+            document.getElementById("hidden14").style.display = "block";
+            document.getElementById("add14").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence16thEval">
+        <button onclick="reveal15()" class="interact" id="add15" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal15() {
+            document.getElementById("hidden15").style.display = "block";
+            document.getElementById("add15").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence17thEval">
+        <button onclick="reveal16()" class="interact" id="add16" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal16() {
+            document.getElementById("hidden16").style.display = "block";
+            document.getElementById("add16").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence18thEval">
+        <button onclick="reveal17()" class="interact" id="add17" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal17() {
+            document.getElementById("hidden17").style.display = "block";
+            document.getElementById("add17").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence19thEval">
+        <button onclick="reveal18()" class="interact" id="add18" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal18() {
+            document.getElementById("hidden18").style.display = "block";
+            document.getElementById("add18").style.display = "none";
+        }
+        </script>
+    </div>
+
+    <div name="commence20thEval">
+        <button onclick="reveal19()" class="interact" id="add19" style="display:none;">Add More?</button>
+
+        <script>
+        function reveal19() {
+            document.getElementById("hidden19").style.display = "block";
+            document.getElementById("add19").style.display = "none";
+        }
+        </script>
+    </div>
+</div>
 </footer>
 <script src="createhours.js"></script>
 </body>
