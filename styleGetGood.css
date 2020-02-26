@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(150, 95, 44);
+    text-align: center;
+    font-size: 2em;
+}
+
+*{
+    color: rgb(92, 156, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.interact{
+    background-color: rgb(114, 70, 30);
+    font-size: 1em; 
+    color: rgb(49, 114, 187);
+    border: 1px solid rgb(90, 53, 19);
+}
+
+.interact:hover{background-color: rgb(90, 53, 19);}
+.option option:hover{background-color: rgb(114, 70, 30);}
+
+#feedback{
+    font-size: 1em;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#logo{
+    width: 5em;
+    background-color: rgb(90, 53, 19);
+    padding: 0% 43%;
+    position: relative;
+    margin: 0;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    background-color: rgb(90, 53, 19);
+    margin: 0;
+}
+
+table{
+    border: 2px solid rgb(90, 53, 19);
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 1px solid gray;
+}

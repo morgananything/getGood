@@ -1,0 +1,128 @@
+<head>
+    <title>GetGood</title>
+    <link rel="stylesheet" type="text/css" href="styleGetGood.css">
+</head>
+<body >
+    <img src="logo.png" id="logo">
+    <h1>GetGood</h1>
+        <p>Number one way to manage your revision length kindly. <br>
+        <br>Select a subject to evaluate, then click the button <br>
+            to begin entering information.</p>
+    <form>
+        <select id="subject" class="interact">
+            <div class="option">
+                <option>((choose option))</option>
+                <option>Maths</option>
+                <option>Welsh</option>
+                <option>English</option>
+                <option>Biology</option>
+                <option>Chemistry</option>
+                <option>Physics</option>
+                <option>RE</option>
+                <option>Psychology</option>
+                <option>Computer Science</option>
+                <option>D&T</option>
+                <option>Criminology</option>
+                <option>Spanish/French</option>
+                <option>Other</option>
+            </div>
+        </select>
+    </form>
+    <button onclick="createHours()" class="interact">!!PERSONALISED ADVICE <br>POPUP CHAIN BEGIN!!</button>
+    <br> <br> <table id="feedback">
+        <tr>
+            <th>SUBJECT</th>
+            <th>HOURS<br> REVISED</th>
+            <th>GRADE <br>ACHIEVED</th>
+            <th>SUGGESTED HOURS <br>TO REVISE</th>
+        </tr>
+        <tr>
+            <td id="subjectA"></td>
+            <td id="hoursA"></td>
+            <td id="gradeA"></td>
+            <td id="newA"></td>
+        </tr>
+        <tr>
+            <td id="subjectB"></td>
+            <td id="hoursB"></td>
+            <td id="gradeB"></td>
+            <td id="newB"></td>
+        </tr>
+        <tr>
+            <td id="subjectC"></td>
+            <td id="hoursC"></td>
+            <td id="gradeC"></td>
+            <td id="newC"></td>
+        </tr>
+        <tr>
+            <td id="subjectD"></td>
+            <td id="hoursD"></td>
+            <td id="gradeD"></td>
+            <td id="newD"></td>
+        </tr>
+        <tr>
+            <td id="subjectE"></td>
+            <td id="hoursE"></td>
+            <td id="gradeE"></td>
+            <td id="newE"></td>
+        </tr>
+        <tr>
+            <td id="subjectF"></td>
+            <td id="hoursF"></td>
+            <td id="gradeF"></td>
+            <td id="newF"></td>
+        </tr>
+        <tr>
+            <td id="subjectG"></td>
+            <td id="hoursG"></td>
+            <td id="gradeG"></td>
+            <td id="newG"></td>
+        </tr>
+        <tr>
+            <td id="subjectH"></td>
+            <td id="hoursH"></td>
+            <td id="gradeH"></td>
+            <td id="newH"></td>
+        </tr>
+        <tr>
+            <td id="subjectI"></td>
+            <td id="hoursI"></td>
+            <td id="gradeI"></td>
+            <td id="newI"></td>
+        </tr>
+        <tr>
+            <td id="subjectJ"></td>
+            <td id="hoursJ"></td>
+            <td id="gradeJ"></td>
+            <td id="newJ"></td>
+        </tr>
+    </table>
+    <p id="tableA"></p>
+    <p id="failedA"></p>
+<footer>
+    <div style="display: none;" id=hidden1>
+        <p>To evaluate another subject, choose a subject then click 'more'.</p>
+        <form>
+            <select id="subject1" class="interact">
+                <div class="option">
+                    <option>((choose option))</option>
+                    <option>Maths</option>
+                    <option>Welsh</option>
+                    <option>English</option>
+                    <option>Biology</option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>RE</option>
+                    <option>Psychology</option>
+                    <option>Computer Science</option>
+                    <option>D&T</option>
+                    <option>Criminology</option>
+                    <option>Spanish/French</option>
+                </div>
+            </select>
+        </form>
+        <button onclick="more()" id="more" class="interact"></button>
+    </div>
+</footer>
+<script src="createhours.js"></script>
+</body>
