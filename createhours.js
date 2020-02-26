@@ -44,7 +44,12 @@ function createHours(grade){ //grade is inputted. we're judging based on this.
     document.getElementById("gradeA").innerHTML = grade;
     document.getElementById("newA").innerHTML = scoreO;
     document.getElementById("subjectA").innerHTML = subject;
-    document.getElementById("hidden").style.display=block; 
+    
+    var more = document.getElementById("more");
+  if (more.style.display === "block") {
+    more.style.display = "none";
+  } else {
+    
 }
 /////////
 function more(grade1){ 
