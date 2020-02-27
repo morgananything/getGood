@@ -36,8 +36,8 @@ body{
 }
 
 h1{
+    position: -webkit-sticky;
     position: sticky;
-    position: -WebKit-sticky;
     top: 0;
     background-color: rgb(90, 53, 19);
     margin: 0;
