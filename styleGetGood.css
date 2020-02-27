@@ -37,9 +37,8 @@ table{
 }
 
 #logo{
-    width: 5em;
+    width: 100%;
     background-color: rgb(90, 53, 19);
-    padding: 0% 43%;
     position: relative;
     margin: 0;
 }
@@ -49,6 +48,7 @@ h1{
     position: sticky; top: 0;
     background-color: rgb(90, 53, 19);
     margin: 0;
+    width: 100%;
 }
 
 ul{
