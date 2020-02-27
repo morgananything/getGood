@@ -25,6 +25,7 @@ body{
     left: 50%;
     transform: translate(-60%);
     background-color: rgb(114, 70, 30);
+    display: inline-block;
 }
 
 table{
