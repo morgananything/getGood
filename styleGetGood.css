@@ -29,11 +29,14 @@ body{
 }
 
 table{
+    position: relative;
     display: inline-block;
     border: 2px solid rgb(90, 53, 19);
     width: 80%;
     border-collapse: collapse;
     text-align: center;
+    left: 50;
+    transform: translate(-50%);
 }
 
 #logo{
