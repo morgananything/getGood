@@ -25,6 +25,11 @@ body{
     left: 50%;
     transform: translate(-50%);
     background-color: rgb(114, 70, 30);
+    display: inline-block;
+    border: 2px solid rgb(90, 53, 19);
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
 }
 
 #logo{
@@ -39,15 +44,7 @@ h1{
     position: -webkit-sticky; top: 3em;
     position: sticky; top: 0;
     background-color: rgb(90, 53, 19);
-    margin: 0;
-}
-
-table{
-    border: 2px solid rgb(90, 53, 19);
-    width: 80%;
-    border-collapse: collapse;
-    text-align: center;
-    position: relative;
+    margin: none;
 }
 
 ul{
