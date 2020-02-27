@@ -32,7 +32,7 @@ table{
     position: relative;
     display: inline-block;
     border: 2px solid rgb(90, 53, 19);
-    width: 80%;
+    width: 4em;
     border-collapse: collapse;
     text-align: center;
     left: 50;
@@ -44,7 +44,7 @@ table{
     background-color: rgb(90, 53, 19);
     position: relative;
     margin: 0;
-    padding: 0% 100%;
+    padding: 0% 4em%;
 }
 
 h1{
