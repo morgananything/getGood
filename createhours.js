@@ -31,14 +31,14 @@ function createHours(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list1").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
         document.getElementById("list1").innerHTML = "<br>You're doing great in " + subject + "!";
     } else{
         document.getElementById("failedA").innerHTML = 
-        "Stop messing around right now. This is serious. <br> Input valid values.";
+        "Stop messing around right now. <br>This is serious. <br> Input valid values.";
     }
 
     document.getElementById("hours1").innerHTML = score;
@@ -81,7 +81,7 @@ function more1(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list2").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -131,7 +131,7 @@ function more2(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list3").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -182,7 +182,7 @@ function more3(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list4").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -233,7 +233,7 @@ function more4(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list5").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -284,7 +284,7 @@ function more5(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list6").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -335,7 +335,7 @@ function more6(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list7").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -386,7 +386,7 @@ function more7(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list8").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -437,7 +437,7 @@ function more8(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list9").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -488,7 +488,7 @@ function more9(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list10").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -539,7 +539,7 @@ function more10(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list11").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -590,7 +590,7 @@ function more11(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list12").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -641,7 +641,7 @@ function more12(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list13").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -692,7 +692,7 @@ function more13(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list14").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -743,7 +743,7 @@ function more14(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list15").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -794,7 +794,7 @@ function more15(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list16").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -845,7 +845,7 @@ function more16(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list17").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -896,7 +896,7 @@ function more17(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list18").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -947,7 +947,7 @@ function more18(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list19").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
@@ -998,7 +998,7 @@ function more19(grade){ //grade is inputted. we're judging based on this.
 
     if(score < 0){
         document.getElementById("failedA").innerHTML = 
-        "You fool. You bastard. Stop making a mockery of my code. You can't revise for negative hours.";
+        "You fool. You bastard. <br>Stop making a mockery of my code. <br>You can't revise for negative hours.";
     } else if(scoreO > score){
         document.getElementById("list20").innerHTML = "<br>You should revise for " + subject + " for " + scoreO + " hours.";
     } else if(scoreO == score){
